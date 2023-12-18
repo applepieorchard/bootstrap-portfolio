@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #BFD5E2;
+}
+
 /* Navigation Styles */
 .nav-link {
     color: #E0279D;
@@ -39,4 +43,20 @@ nav div img {
 
 .jumbotron img {
     width: 200px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 992px){
+    nav div img {
+        margin-left: 10px;
+    }
+
+    .nav-link {
+        margin-left: 10px;
+    }
+
+    .dropdown-toggle {
+        margin-left: 60px;
+        margin-top: -40px;
+    }
 }
