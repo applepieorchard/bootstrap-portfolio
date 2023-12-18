@@ -27,3 +27,16 @@ nav div img {
 .dropdown-toggle {
     margin-left: -10px;
 }
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-image: url("../images/Colorful_galaxy_\(Unsplash\).png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #ECFFF8;
+}
+
+.jumbotron img {
+    width: 200px;
+}
