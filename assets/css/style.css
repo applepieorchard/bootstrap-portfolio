@@ -6,6 +6,11 @@ body {
     background-color: #BFD5E2;
 }
 
+/* Button Hover */
+.btn-dark:hover {
+    box-shadow: 5px 5px 5px #D5A18E;;
+}
+
 /* Navigation Styles */
 .nav-link {
     color: #E0279D;
@@ -43,6 +48,11 @@ nav div img {
 
 .jumbotron img {
     width: 200px;
+}
+
+/* Work Section Styles */
+.card-body {
+    background-color: #563C5C;
 }
 
 /* Media Queries */
