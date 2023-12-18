@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
 }
+
+.nav-link {
+    color: #E0279D;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #ECFFF8;
+}
+
+.nav-link:focus {
+    color: #99FFDA;
+}
+
+.active {
+    color: #D5A18E;
+}
+
+nav div img {
+    margin-right: 5px;
+}
+
+.dropdown-toggle {
+    margin-left: -10px;
+}
