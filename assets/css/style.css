@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Navigation Styles */
 .nav-link {
     color: #E0279D;
     font-weight: bold;
@@ -25,4 +26,17 @@ nav div img {
 
 .dropdown-toggle {
     margin-left: -10px;
+}
+
+/* Jumbotron Styles */
+.jumbotron {
+    background-image: url("../images/Colorful_galaxy_\(Unsplash\).png");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    color: #ECFFF8;
+}
+
+.jumbotron img {
+    width: 200px;
 }
