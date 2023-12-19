@@ -13,7 +13,7 @@ Throughout this project I have learned to make use of various bootstrap componen
 
 ![A screenshot of the desktop view.](assets/images/screenshotDesktop.png)
 
-This website can be found on [Github Pages.](https://applepieorchard.github.io/adrian-web-portfolio/)
+This website can be found on [Github Pages.](https://applepieorchard.github.io/bootstrap-portfolio/)
 
 ## Installation
 
