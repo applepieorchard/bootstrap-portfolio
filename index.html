@@ -11,9 +11,10 @@
         <!-- Internal CSS Stylesheet -->
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
+
     <body>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #563C5C;">
+        <nav class="navbar sticky-top navbar-expand-lg" data-bs-theme="dark" style="background-color: #563C5C;">
             <div class="container-fluid">
                 <img src="./assets/images/Spirograph.png" alt="Spirograph" width="32" height="32" class="d-inline-block align-text-top">
                 <a class="navbar-brand" href="#" style="color: #D5A18E;">Portfolio</a>
@@ -37,12 +38,16 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About & Contact</a>
+                            <a class="nav-link" href="#">Contact</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
                          </li>
                     </ul>
+                    <!-- Search does not work without a backend search engine -->
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-dark" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -50,6 +55,7 @@
                 </div>
             </div>
         </nav>
+
         <!-- Hero Banner Jumbotron -->
         <section>
             <div class="jumbotron jumbotron-fluid">
@@ -63,6 +69,7 @@
                 </div>
               </div>
         </section>
+
         <main>
             <!-- Work Section -->
             <section id="work">
@@ -88,7 +95,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">CSS Portfolio</h5>
                                     <p class="card-text">CSS/HTML</p>
-                                    <a href="https://applepieorchard.github.io/adrian-web-portfolio/" class="btn btn-dark stretched-link">Go to Project</a>
+                                    <a href="https://applepieorchard.github.io/adrian-web-portfolio/" target="_blank" class="btn btn-dark stretched-link">Go to Project</a>
                                 </div>
                             </div>
                         </div>
@@ -128,7 +135,37 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Skills Sections -->
+            <section id="skills">
+                <div class="container-fluid">
+                    <h2 class="display-6">Skills</h2>
+                    <hr class="border-3">
+                </div>
+                <div class="container">
+                    <div class="col-12">
+                        <div class="card" data-bs-theme="dark">
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">HTML</li>
+                                    <li class="list-group-item">CSS</li>
+                                    <li class="list-group-item">JavaScript</li>
+                                    <ul class="list-group-item">
+                                        <li class="list-group-item">React</li>
+                                        <li class="list-group-item">jQuery</li>
+                                        <li class="list-group-item">Node</li>
+                                        <li class="list-group-item">ES6</li>
+                                    </ul>
+                                    <li class="list-group-item">Using Git</li>
+                                    <li class="list-group-item">API Dev</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
+
         <!-- Scripts for Bootstrap 4 -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
