@@ -64,6 +64,14 @@ nav div img {
     background-color: #563C5C;
 }
 
+/* Footer Styles */
+footer {
+    background-color: #563C5C;
+    margin-top: 10px;
+    padding: 10px 5px;
+    color: #BFD5E2;
+}
+
 /* Media Queries */
 @media screen and (max-width: 992px){
     nav div img {
