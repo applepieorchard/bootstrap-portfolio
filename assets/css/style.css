@@ -1,3 +1,8 @@
+::selection {
+    background-color: #E0279D;
+    color: #ECFFF8;
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +17,10 @@ body {
 }
 
 /* Navigation Styles */
+nav {
+    border-bottom: 3px solid #D5A18E;
+}
+
 .nav-link {
     color: #E0279D;
     font-weight: bold;
